@@ -1,0 +1,408 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    margin-top: 0px;
+    height: 100%;
+    width :100%;
+}
+.header_img{
+    background-image: url(./Images/front-pg-banner-v8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.header_btn{
+    width: 17%;
+    border: solid 0px;
+    margin-top: 3vh;
+    margin-left: 70%;
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    border: solid 0px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    height: 3vh;
+    width: 100px;
+    color: aliceblue;
+    padding: 10px;
+}
+.btn:hover{
+    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+.notice{
+    height: auto;
+}
+.trademark h3{
+    background-color: #FF716F;
+    color: aliceblue;
+    text-align: center;
+    padding: 6px;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 45%;
+}
+.body1{
+    border: solid 0px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.inform{
+    border: solid 0px;
+    width: 25%;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+}
+.religion{
+    background-color: #e5e6e6;
+    border-radius: 16px;
+    height: 190px;
+}
+.pro h2{
+    color: #D20200;
+    text-align: center;
+
+}
+.inform h3{
+    color: #666;
+}
+.inform h3:hover{
+    color: #D20200;
+}
+.inform a{
+    text-decoration: none;
+    color: #666;
+}
+.inform a hover{
+    color: #D20200;
+}
+.read_more{
+    border: solid 0px;
+    background: rgb(5, 172, 172);
+    box-shadow: 0px 0px 5px rgb(129, 149, 129);
+    width: 30%;
+    padding: 10px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.read_more:hover{
+    opacity: 0.5;
+    color: white;
+}
+.body2_img{
+    border: solid 0px;
+    background-image: url(./Images/prime-background-home.jpg);
+    height: auto;
+    opacity: 1;
+}
+.box{
+    border: solid 0px;
+    height: auto;
+    margin: 50px;
+    padding-bottom: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.prime{
+    border: solid 0px;
+    height: auto;
+    width: 30%;
+}
+.assist{
+    border: solid 5px skyblue;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    height: auto;
+    padding: 40px;
+
+    /*display: flex;
+    justify-content: space-evenly;*/
+}
+.assist img{
+    width: 100%;
+    border-radius: 40px;
+    height: auto;
+}
+.click{
+    display: flex;
+    justify-content: center;
+}
+.click_here{
+    border:solid 0px;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+.click_here a{
+    text-decoration: none;
+}
+.plus{
+    border: solid 5px skyblue;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    height: auto;
+    padding: 40px;
+}
+.plus img{
+    width: 100%;
+    border-radius: 40px;
+    height: auto;
+}
+.inside_body1{
+    border: solid 0px;
+    height: auto;
+    width: 350px;
+    margin: 20px;
+}
+.advice img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px; 
+}
+.read_para{
+    text-align: center;
+    font-weight: bold;
+}
+.inside_body1 h2{
+    text-align: center;
+}
+.member{
+    border: solid 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    width: 80%;
+}
+.member1{
+    border: solid 0px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+.member1 img{
+    width: auto;
+    height: auto;
+}
+.story{
+    border: solid 0px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 2px #e5e6e6;
+    width: 70%;
+    margin-left: 15%;
+    padding: 20px;
+    justify-content: center;
+}
+.matrimony{
+    border: solid 0px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #f8f8f8;
+}
+.first{
+    border: solid 2px none;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+.second{
+    border: solid 2px none;
+    width: 30%;
+    padding: 10px;
+}
+.third{
+    border: solid 2px none;
+    width: 70%;
+    display: flex;
+}
+.fourth {
+    border: solid 2px none;
+    width: 25%;
+}
+.first h4{
+    color: #666;
+}
+.third a{
+    text-decoration: none;
+    color: #666;
+}
+.first hr{
+    color: red;
+    width: 25%
+}
+/*footer part*/
+.footer{
+    height: 200px;
+    background-color: #D20200;
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    height: auto;
+    width: auto;
+    padding-left: 50px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.para{
+    padding-top: 80px;
+    padding-right: 80px;
+    color: white;
+    text-align: end;
+}
+.social a{
+    color: white;
+}
+/*Religion page*/
+.header{
+    border: solid 0px;
+    height: auto;
+    width: 100%;
+}
+.logo{
+    background-color: #76c7c0;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    padding-left: 20px;
+}
+.login_btn{
+    height: 30px;
+    width: auto;
+    border-radius: 7px;
+    padding-top: 8px;
+    margin-top: 5px;
+}
+.logo a{
+    text-decoration: none;
+    color: #666;
+}
+.logo a:hover{
+    border: solid 0px;
+    color: white;
+    background-color: #304341;
+    border-radius: 1px;
+}
+/*body part*/
+.matri1{
+    color: #528b86;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.matri2{
+    color: rgb(170,0,0);
+    font-size: 28px;
+}
+.horizental1{
+    width: 47%;
+    position: relative;
+    margin-left: 50px;
+    height: 2px;
+    background-color: black;
+    margin-top: 20px;
+}
+.smallbox{
+    border: solid 2px rgb(190,0,0);
+    background-color: rgb(190, 8, 8);
+    width: 15px;
+    height: 8px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -4px;
+}
+.smallbox1{
+    border: solid 2px #528b86;
+    background-color:#528b86;
+    width: 15px;
+    height: 7px;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 5px;
+}
+.horizental2{
+    width: 46%;
+    margin-left: 50%;
+    margin-top: 7px;
+    height: 2px;
+    background-color: black;
+}
+.text1{
+    border: solid 2px #f1f1f2;
+    background-color: #f1f1f2;
+    width: 90%;
+    height: 450px;
+    margin: 50px;
+
+    display: flex;
+    position: relative;
+}
+.text1_1{
+    border: solid 2px #f1f1f2;
+    width: 300px;
+    height: 425px;
+    margin: 50px; 
+    margin-top: -3px;
+    margin-left: -3px;
+    position: absolute;
+}
+.text1_1 a{
+    color: #6a9fb2;
+    text-decoration: none;
+    padding: 20px;
+    padding-top: 40px;
+}
+.text1_1 a:hover{
+    color: #323131;
+}
+.text1_2{
+    border: solid 2px #f1f1f2;
+    width: 300px;
+    height: 425px;
+    margin: 50px; 
+    margin-top: -3px;
+    margin-left: 400px;
+    position: absolute;
+}
+.text1_3{
+    border: solid 2px #f1f1f2;
+    width: 300px;
+    height: 425px;
+    margin: 50px; 
+    margin-top: -1px;
+    margin-left: 400px;
+    position: absolute;
+}
+.horizentalbox{
+    color: #191717;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+
+
